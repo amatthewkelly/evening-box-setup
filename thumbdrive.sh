@@ -11,7 +11,7 @@ apt install -y nginx git curl
 echo "==> Installing Ollama and pulling llama3.2:1b"
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3.2:1b
-ollama pull gemma 2:2b
+ollama pull gemma2:2b
 
 echo "==> Installing Claude Code"
 curl -fsSL https://claude.ai/install.sh | bash
