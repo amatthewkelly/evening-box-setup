@@ -35,6 +35,9 @@ git clone https://github.com/amatthewkelly/evening-box-site.git /tmp/site
 cp /tmp/site/index.html /var/www/html/index.html
 
 echo "==> Done. To finish:"
+echo ""
+echo "    Site live at: http://$(curl -4 -s ifconfig.me)"
+echo ""
 echo "    source ~/.bashrc"
 echo "    claude            # auth Claude Code"
 echo "    gh auth login     # auth GitHub"
