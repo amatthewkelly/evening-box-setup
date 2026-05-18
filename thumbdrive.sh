@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefall
+set -euo pipefail
 
 # setup a fresh ubunto 24.04 box with the evening-box stack:
 # nginx, 1b ollama + gemma2.2, claude code, github cli
