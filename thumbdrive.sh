@@ -30,6 +30,9 @@ if ! command -v gh >/dev/null; then
   apt install -y gh
 fi
 
+git clone https://github.com/amatthewkelly/evening-box-site.git /tmp/site
+cp /tmp/site/index.html /var/www/html/index.html
+
 echo "==> Done. To finish:"
 echo "    source ~/.bashrc"
 echo "    claude            # auth Claude Code"
