@@ -13,6 +13,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3.2:1b
 ollama pull gemma2:2b
 
+echo "==> Installing mosh"
+apt install mosh
+
 echo "==> Installing Claude Code"
 curl -fsSL https://claude.ai/install.sh | bash
 if ! grep -q 'HOME/.local/bin' ~/.bashrc; then
